@@ -1,8 +1,45 @@
-# Yelp-Restaurant-Data-Analytics-SQL-Azure-
-## This is a project using Yelp restaurant data to do analytics to know right places, right time, right business type to set up a new restaurant
+📊 Yelp Restaurant Data Analytics with SQL & Azure
+This project leverages Yelp restaurant data to identify optimal locations, timings, and business types for setting up a new restaurant. By importing and transforming Yelp data from Kaggle into a cloud SQL environment, the project provides valuable insights for data-driven restaurant market strategy.
 
-### Imported Kaggle Yelp data into Azure, adjusted variable attributes and normalized the schema to ensure data consistency, structuring over 6.5 million JSON records into 8 optimized SQL tables based on 3NF principles.
+🚀 Project Overview
+Objective: Analyze restaurant business data to determine the right place, time, and type of restaurant to establish for market success.
 
-### Used Pandas and SQL Alchemy for ETL pipeline, flattened nested JSON attributes, optimized data types, and automated batch uploads, reduced data redundancy about 80%, and analyzed the most valuable 20.06% of businesses.
+Data Source: Yelp Dataset from Kaggle
 
-### Developed SQL queries to analyze restaurant categories, consumer sentiment, and peak days and hours (Friday and Saturday, 5pm to midnight) across 1,000+ cities, provided insights to support data-driven market positioning. For example, we find Tucson's average rating is low (3.74) but it has lots of reviews (250k), which means we can set up a new restaurant.
+🧱 Data Engineering & ETL Pipeline
+Imported over 6.5 million Yelp JSON records into Azure SQL Database.
+
+Designed and normalized the schema into 8 optimized SQL tables based on Third Normal Form (3NF) to ensure data consistency.
+
+Utilized Pandas and SQLAlchemy to:
+
+Flatten deeply nested JSON attributes.
+
+Optimize variable types.
+
+Automate batch uploads and transformation pipelines.
+
+📉 Achieved ~80% reduction in data redundancy and identified top 20.06% most valuable businesses.
+
+🔍 Data Analysis Highlights
+Developed complex SQL queries to analyze:
+
+✅ Restaurant categories and business types.
+
+🗣️ Consumer sentiment and review patterns.
+
+⏰ Peak operational days and hours (e.g., Friday and Saturday, 5 PM to midnight).
+
+🏙️ Performance comparisons across 1,000+ cities.
+
+🔎 Key Insight Example
+Tucson has a low average rating (3.74) but a high volume of reviews (250k+), indicating strong demand with quality improvement opportunities—making it a promising location for launching a new restaurant.
+
+🛠 Tools & Technologies
+Languages: Python (Pandas, SQLAlchemy), SQL
+
+Cloud: Microsoft Azure SQL Database
+
+Libraries: Pandas, JSON, SQLAlchemy
+
+ETL: Automated pipeline with batch uploads
