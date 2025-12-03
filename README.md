@@ -29,6 +29,7 @@ Developed complex SQL queries to analyze:
 ### 🔎 Key Insight Example
 
 > Tucson has a **low average rating** (3.74) but a **high volume of reviews** (250k+), indicating **strong demand with quality improvement opportunities**—making it a promising location for launching a new restaurant.
+
 > As a result, we would suggest opening a Mexican cuisine restaurant in Tucson city, which opens for 6 days a week (Tuesday–Sunday), in late evening hours, i.e. 5:00 pm – 3:00 a.m., and the top users can be asked for feedback for a good restaurant.
 
 ## 🛠 Tools & Technologies
